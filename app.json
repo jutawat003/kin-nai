@@ -20,10 +20,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jutawat.kinnai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8df55ef3-5a4c-4604-beea-9fc9e5b2e04c"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
